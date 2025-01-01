@@ -535,6 +535,7 @@ hl.plugins.neotest = {
 
 hl.plugins.nvim_tree = {
 	NvimTreeNormal = { fg = c.fg, bg = cfg.transparent and c.none or c.bg_d },
+	NvimTreeNormalFloat = { fg = c.fg, bg = cfg.transparent and c.none or c.bg_d },
 	NvimTreeVertSplit = { fg = c.bg_d, bg = cfg.transparent and c.none or c.bg_d },
 	NvimTreeEndOfBuffer = { fg = cfg.ending_tildes and c.bg2 or c.bg_d, bg = cfg.transparent and c.none or c.bg_d },
 	NvimTreeRootFolder = { fg = c.orange, fmt = "bold" },
@@ -684,7 +685,7 @@ hl.plugins.mini = {
 	MiniIconsYellow = { fg = c.yellow },
 
 	MiniIndentscopeSymbol = { fg = c.grey },
-	MiniIndentscopePrefix = { fmt = "nocombine" },   -- Make it invisible
+	MiniIndentscopePrefix = { fmt = "nocombine" }, -- Make it invisible
 
 	MiniJump = { fg = c.purple, fmt = "underline", sp = c.purple },
 
